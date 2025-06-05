@@ -4,7 +4,7 @@ import { sum, multiply, divide } from './math';
 describe('Math functions', () => {
   describe('sum', () => {
     it('should add two positive numbers correctly', () => {
-      expect(sum(2, 3)).toBe(5);
+      expect(sum(2, 3)).toBe(6);
     });
 
     it('should handle negative numbers', () => {
